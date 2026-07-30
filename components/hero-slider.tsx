@@ -38,7 +38,7 @@ export function HeroSlider() {
     <section id="inicio" className="relative h-[92svh] min-h-[560px] w-full overflow-visible">
       {slides.map((slide, i) => (
         <div
-          key={slide.image}
+          key={slide.image} 
           className={cn(
             'absolute inset-0 transition-opacity duration-1000',
             i === current ? 'opacity-100' : 'opacity-0',
